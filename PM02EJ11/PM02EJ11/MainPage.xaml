@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02EJ11.MainPage">
+
+    <StackLayout Margin="15" Visual="Material">
+        
+        <Label Text="Numero 1"/>
+        <Entry Placeholder="0" x:Name="num1" Keyboard="Numeric"/>
+        
+        <Label Text="Numero 2"/>
+        <Entry Placeholder="0" x:Name="num2" Keyboard="Numeric"/>
+
+        <Button Text="Sumar" Clicked="Button_Sumar"/>
+        <Button Text="Restar" Clicked="Button_Restar"/>
+        <Button Text="Multiplicar" Clicked="Button_Multiplicar"/>
+        <Button Text="Dividir" Clicked="Button_Dividir"/>
+        
+    </StackLayout>
+
+</ContentPage>
